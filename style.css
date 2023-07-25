@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: #444242;
+}
+a {
+    text-decoration: none;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.vis {
+    margin-top: 200px;
+}
+.visimisi {
+    border-radius: 40px;
+}
+.btn-p{
+    background-color: #AB8B62;
+    width: 204px;
+    height: 63px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+}
+.teks {
+    font-weight: 500px;
+}
+.kuotes p{
+    padding-left: 20px;
+}
+.our-bawah::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 1%;
+    background-color: #000;
+}
+.our-bawahh::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 1%;
+    background-color: #000;
+}
+.motto-bawah {
+    font-size: 32px;
+    font-weight: 600;
+}
+.motto-bawahh {
+    font-size: 30px;
+}
+.motto-bawah::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 1%;
+    background-color: #000;
+}
+.about {
+    margin-top: 4%;
+    margin-bottom: 7%;
+    font-size: 40px;
+}
+.about::after {
+    content: "";
+    display: block;
+    width: 5%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.nama-p {
+    font-size: 32px;
+}
+.isinama {
+    font-size: 20px;
+}
+.hist1{
+    font-size: 28px;
+}
+.hist1::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    margin-top: 1%;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255);
+}
+.hist2{
+    font-size: 20px;
+}
+.vis1{
+    font-size: 28px;
+}
+.vis1::after{
+    content: "";
+    display: block;
+    width: 23%;
+    height: 2px;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+.vis2{
+    font-size: 20px;
+}
+.pak4 {
+    padding-top: 65px;
+}
+.quotes{
+    font-size: 30px;
+}
+
+.baris {
+    width: 200px;
+    height: 60px;
+}
+.baris svg {
+   margin-left: auto; 
+}
+.capt {
+    font-size: 15px;
+}
+.ourt::after{
+    content: "";
+    display: block;
+    width: 6%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: rgb(255, 252, 252);
+}
+.cu {
+    font-size: 35px;
+}
+.cu::after{
+    content: "";
+    display: block;
+    width: 8%;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 3px;
+    background-color: rgb(0, 0, 0);
+}
+.location{
+    font-weight: 500;
+}
+.location::after{
+    content: "";
+    display: block;
+    width: 15%;
+    height: 2px;
+    margin-bottom: 4%;
+    margin-left: auto;
+    background-color: rgb(0, 0, 0);
+}
+.faq{
+    font-weight: 500;
+}
+.faq::after{
+    content: "";
+    display: block;
+    width: 28%;
+    height: 2px;
+    margin-bottom: 4%;
+    background-color: rgb(0, 0, 0);
+}
+
+/* SOSMED */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 80px;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+.icon .fa-twitter{
+    color: #1DA1F2;
+}
+.twt:hover{
+    background: #1DA1F2;
+}
+.icon .fa-whatsapp{
+    color: #0dbd36;
+}
+.wasapp:hover{
+    background: #0dbd36;
+}
+.icon .fa-instagram{
+    color: rgb(193, 74, 61);
+}
+.ig:hover{
+    background: rgb(193, 74, 61);
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .main{
+        flex-direction: column;
+    }
+}
+/* SOSMED */
+
+.pinggir {
+    padding-top: 40px;
+}
+.texti {
+    
+    font-size: 30px;
+    font-weight: 500;
+}
+.texti::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    background-color: rgb(0, 0, 0);
+}
+
+.proposal img {
+    border-radius: 20px;
+}
+.pro-cap {
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    border-radius: 20px;
+    width: 263px;
+}
+.pro-cap:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    border-radius: 20px;
+    width: 263px;
+}
+.proposal::after{
+    content: "";
+    display: block;
+    width: 8%;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+}
+.dobe {
+    margin-bottom: 70px;
+}
+
+/* btn downoad */
+  .btn-download {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn-download:hover {
+    background-color: #b7b2ab;
+    box-shadow: 0px 15px 20px rgba(40, 75, 61, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .btn-download:active {
+    transform: translateY(-1px);
+  }
+/* end download */
+
+/* btn waa */
+.btn-waa {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #33E512;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 200px;
+    height: 70px;
+    font-size: 19px;
+    color: white;
+  }
+  
+  .btn-waa:hover {
+    background: #39FF14;
+  }
+  
+  .btn-waa > svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  .btn-waa:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .btn-waa:active {
+    transform: scale(0.95);
+  }
+  
+  
+/* end waa */
+
